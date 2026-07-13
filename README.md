@@ -10,8 +10,10 @@ This module adds an Export PDF button to character sheets. Clicking it opens a p
 3. Enable the module from the Configure Settings > Manage Modules screen.
 
 ### GitHub manifest install
-Use this manifest URL when installing from GitHub:
+Use this exact manifest URL when installing from GitHub:
 `https://raw.githubusercontent.com/NBD-1138/PDFExport/main/module.json`
+
+Do not use the GitHub web page URL or any URL containing `/blob/` in the manifest field. Those URLs return HTML, not JSON.
 
 ## Usage
 
