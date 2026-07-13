@@ -1,0 +1,18 @@
+{
+  "name": "pdf-export",
+  "title": "PDF Export",
+  "description": "Adds an Export PDF button to character sheets so the sheet can be printed or saved as a PDF.",
+  "version": "0.1.0",
+  "author": "OpenAI",
+  "minimumCoreVersion": "12",
+  "compatibleCoreVersion": "12",
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "url": "https://example.com/pdf-export",
+  "manifest": "https://example.com/pdf-export/module.json",
+  "download": "https://example.com/pdf-export/archive/0.1.0.zip"
+}
