@@ -3,7 +3,7 @@
   "title": "PDF Export",
   "description": "Adds an Export PDF button to character sheets so the sheet can be printed or saved as a PDF.",
   "version": "0.1.0",
-  "author": "OpenAI",
+  "author": "NBD-1138",
   "minimumCoreVersion": "12",
   "compatibleCoreVersion": "12",
   "esmodules": [
@@ -12,7 +12,7 @@
   "styles": [
     "styles/module.css"
   ],
-  "url": "https://example.com/pdf-export",
-  "manifest": "https://example.com/pdf-export/module.json",
-  "download": "https://example.com/pdf-export/archive/0.1.0.zip"
+  "url": "https://github.com/NBD-1138/PDFExport",
+  "manifest": "https://raw.githubusercontent.com/NBD-1138/PDFExport/main/module.json",
+  "download": "https://github.com/NBD-1138/PDFExport/archive/refs/heads/main.zip"
 }

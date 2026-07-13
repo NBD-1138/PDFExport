@@ -4,9 +4,14 @@ This module adds an Export PDF button to character sheets. Clicking it opens a p
 
 ## Installation
 
+### Local install
 1. Copy this folder into your Foundry VTT `Data/modules/` directory.
 2. Restart Foundry VTT.
 3. Enable the module from the Configure Settings > Manage Modules screen.
+
+### GitHub manifest install
+Use this manifest URL when installing from GitHub:
+`https://raw.githubusercontent.com/NBD-1138/PDFExport/main/module.json`
 
 ## Usage
 
