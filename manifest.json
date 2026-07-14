@@ -22,6 +22,6 @@
     "styles/module.css"
   ],
   "url": "https://github.com/NBD-1138/PDFExport",
-  "manifest": "https://raw.githubusercontent.com/NBD-1138/PDFExport/refs/heads/main/module.json",
-  "download": "https://github.com/NBD-1138/PDFExport/archive/refs/heads/main.zip"
+  "manifest": "https://github.com/NBD-1138/PDFExport/releases/latest/download/module.json",
+  "download": "https://github.com/NBD-1138/PDFExport/releases/download/0.1.3/module.zip"
 }
