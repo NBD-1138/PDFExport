@@ -1,4 +1,4 @@
-const MODULE_ID = 'pdf-export';
+const MODULE_ID = 'PDFExport';
 const MODULE_TITLE = 'PDF Export';
 
 Hooks.once('init', () => {

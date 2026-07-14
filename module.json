@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "author": "NBD-1138",
   "minimumCoreVersion": "12",
-  "compatibleCoreVersion": "12",
+  "compatibleCoreVersion": "13",
   "esmodules": [
     "scripts/module.js"
   ],
