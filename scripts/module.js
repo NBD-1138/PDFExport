@@ -8,9 +8,15 @@ Hooks.once('init', () => {
 Hooks.on('renderActorSheet', (app, html) => {
   if (!app?.actor || app.actor.type !== 'character') return;
   if (!app.actor.isOwner) return;
-  if (html.find('.pdf-export-button').length) return;
 
-  const header = html.find('.window-header');
+  const $html = html instanceof jQuery ? html : $(html);
+  if (!$html || !$html.length) return;
+  if ($html.find('.pdf-export-button').length) return;
+
+  let header = $html.find('.window-header').first();
+  if (!header.length && app.element) {
+    header = $(app.element).find('.window-header').first();
+  }
   if (!header.length) return;
 
   const button = $('<button type="button" class="pdf-export-button"><i class="fas fa-file-pdf"></i><span>Export PDF</span></button>');
