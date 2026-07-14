@@ -15,6 +15,8 @@ Use this exact manifest URL when installing from GitHub:
 
 Do not use the GitHub web page URL or any URL containing `/blob/` in the manifest field. Those URLs return HTML, not JSON.
 
+Foundry reads `module.json` for installs and update checks. Keep `manifest.json` only as a mirror if you want it for your own workflow.
+
 ## Usage
 
 Open any character sheet and click Export PDF in the sheet header.
@@ -23,3 +25,4 @@ Open any character sheet and click Export PDF in the sheet header.
 
 - The export uses the browser print workflow, so the final file will be created from the browser's Save as PDF option.
 - The export is designed for a quick, dependency-free workflow.
+- Update notices only appear when the remote `manifest` URL serves a higher `version` than the installed copy. Changing local files alone will not create an available update.
