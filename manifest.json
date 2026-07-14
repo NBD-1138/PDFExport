@@ -1,4 +1,5 @@
 {
+  "id": "pdf-export",
   "name": "pdf-export",
   "title": "PDF Export",
   "description": "Adds an Export PDF button to character sheets so the sheet can be printed or saved as a PDF.",
