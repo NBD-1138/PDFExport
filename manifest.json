@@ -3,10 +3,13 @@
   "name": "pdf-export",
   "title": "PDF Export",
   "description": "Adds an Export PDF button to character sheets so the sheet can be printed or saved as a PDF.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "NBD-1138",
   "minimumCoreVersion": "12",
-  "compatibleCoreVersion": "12",
+  "compatibleCoreVersion": "13",
+  "license": "MIT",
+  "bugs": "https://github.com/NBD-1138/PDFExport/issues",
+  "changelog": "https://github.com/NBD-1138/PDFExport/releases",
   "esmodules": [
     "scripts/module.js"
   ],
